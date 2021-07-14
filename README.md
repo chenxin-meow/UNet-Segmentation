@@ -27,7 +27,7 @@ Our Goal is to --
 
 A full 360-degree image display of a diamond can be captured by *Sarine Loupe scanning technology*.
 
-There are 2067 pieces of diamond records, each with one PNG image of 1200*1200 pixels and one movie of 2400*1200 pixels with 400 frames. For each 20 pieces of diamond image, there is an XML file labeled the pixel-level defects from 10 categories (Crystal, Cloud, Twinning wisp, Pinpoint, Feather, Internal graining, Needle, Nick, Pit, Burn mark).
+There are 2067 pieces of diamond records, each with one PNG image of 1200\*1200 pixels and one movie of 2400\*1200 pixels with 400 frames. For each 20 pieces of diamond image, there is an XML file labeled the pixel-level defects from 10 categories (Crystal, Cloud, Twinning wisp, Pinpoint, Feather, Internal graining, Needle, Nick, Pit, Burn mark).
 
 1. The labels distinguish the reflections from the true defects.
 
@@ -55,13 +55,13 @@ generate `-mask` images from the information in `targetFileName` and output it t
 clip_and_resize.py / handle_image (filename,label_filename,src_folder,save_folder,tar_size=(1200,1200))
 ```
 
-3. Clip image to small patches 400*400​ for training
+3. Clip image to small patches 400\*400​ for training
 
 ```python
 generate_clipped_image.py / handle_image(filename,label_filename,src_folder,save_folder,tar_size=(400,400),stride=200)
 ```
 
-Each image is clipped in to 25 small patches of size 400*400 *uniformly*.
+Each image is clipped into 25 small patches of size 400\*400 *uniformly*.
 
 
 **Resulting folders:**
@@ -120,10 +120,10 @@ Original paper:
 
 *U-Net: Convolutional Networks for Biomedical Image Segmentation* arXiv:1505.04597 [cs.CV]
 
-* Input: 1*400*400
+* Input: 1\*400\*400
 
 * Downsampling (contracting path)
-	* Set padding=1, filter=3*3,
+	* Set padding=1, filter=3,
 	* Max_pooling: f=2
 
 * Upsampling (expansive path)
