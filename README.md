@@ -137,11 +137,13 @@ Original paper:
 
 `.UNet_Architecture.py /  ResNetUNet`
 
+Two-level nested U-Net embodied in ReSidual U-blocks
+
+
 Original paper: 
 
 *U2-Net: Going Deeper with Nested U-Structure for Salient Object Detection* arXiv:2005.09007 [cs.CV]
 
-Two-level nested U-Net embodied in ReSidual U-blocks
 
 
 
@@ -157,6 +159,7 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 ## Testing
 
 **Run `/dataPrep.py, case='test'`**
+
 **Run `test.sh`**
 
 
