@@ -1,4 +1,4 @@
-# 2D U-NET for Diamond Image Segmentation
+# U2-NET CNN for Diamond Image Segmentation
 
 28/06/2021
 Chenxin Jiang
