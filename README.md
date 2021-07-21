@@ -1,9 +1,11 @@
 # U2-NET CNN for Diamond Image Segmentation
 
 28/06/2021
-Chenxin Jiang
+*Chenxin Jiang*
 
-RECSEM REU @Joint Institute for Computational Sciences, Oak Ridge National Laboratory & University of Tennessee
+**RECSEM REU**
+
+@Joint Institute for Computational Sciences, Oak Ridge National Laboratory & University of Tennessee
 
 ## Background
 
@@ -161,7 +163,6 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 **Run `/dataPrep.py, case='test'`**
 
 **Run `test.sh`**
-
 
 
 
